@@ -1,0 +1,39 @@
+.review-container {
+    .review-form {
+      .btn {
+        width: 100%;
+      }
+    }
+    .review {
+      padding-bottom: 3rem;
+      border-bottom: 1px dashed #ced4da;
+    }
+    .comment-form {
+      clear: both;
+    }
+    .comments-container {
+      background: white;
+      padding: 2rem;
+      margin-top: 1rem;
+    }
+  
+  }
+  .popover-list{
+    list-style: none;
+    padding: 0;
+    width: 15rem;
+    li{
+      padding: .5rem 1.5rem;
+    }
+  }
+  .btn-icon{
+      padding: 0;
+      outline: none;
+      border: none;
+   
+      color: black;
+      &:focus{
+        box-shadow: none; 
+      }
+  }
+  

@@ -22,7 +22,7 @@ import Header from './components/header/header.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
 
 import UserContext from './contexts/user.context'
-import SearchItems from './components/search/search.component'
+import SearchItems from './components/Search/search.component'
 
 class App extends React.Component {
   constructor() {

@@ -1,0 +1,27 @@
+.dashboard {
+    width: 850px;
+    justify-content: space-between;
+    margin: 10px auto;
+    display: flex;
+    .dashboard-item {
+      background: rgb(240, 238, 238);
+      border-style: dashed; 
+      width: 410px;
+      justify-content: left;
+      display: flex;
+      flex-direction: column;
+     .dashboard-headertext {
+       margin: 20px 10px auto;
+       font-size: 16px;
+       font-style: bold;
+      }
+    }
+
+    .dashboard-group {
+      background: rgb(240, 238, 238);
+      width: 410px;
+      display: flex;
+      flex-direction: column;
+
+    }
+  }

@@ -12,6 +12,7 @@ const CreateGroup = ({ currentUser }) => {
         description: '',
         admin: currentUser.id,
         location: '',
+        visibility:'PRIVATE',
         memberLimit: '',
         rsvpStarttime: ''
     });
@@ -68,6 +69,14 @@ const CreateGroup = ({ currentUser }) => {
               required
             />
             <FormInput
+            type='hidden'
+            name='admin_id'
+            value={inputs.admin}
+            onChange={handleChange}
+            label=''
+            required
+          />
+            <FormInput
             type='text'
             name='location'
             value={inputs.location}
@@ -75,6 +84,14 @@ const CreateGroup = ({ currentUser }) => {
             label='Location'
             required
           />
+          <FormInput
+          type='text'
+          name='visibility'
+          value={inputs.visibility}
+          onChange={handleChange}
+          label='Visibility'
+          required
+        />
             <FormInput
               type='text'
               name='memberLimit'
